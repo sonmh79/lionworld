@@ -1,0 +1,31 @@
+.base {
+  background-color: goldenrod;
+  width: 95%;
+  height: 90%;
+  z-index: -2;
+  display: flex;
+}
+.main {
+  background-color: rgb(169, 212, 219);
+  width: 300px;
+  height: 100%;
+  border: rgb(169, 170, 219, 0.8) 1px solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-right: none;
+}
+.side {
+  background-color: rgb(169, 212, 219);
+  width: 700px;
+  height: 100%;
+  border: rgb(169, 170, 219, 0.8) 1px solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  position: relative;
+  right: 3px;
+}
