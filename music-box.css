@@ -12,6 +12,7 @@
   justify-content: space-between;
 }
 .music-icon__pause {
+  z-index: 10;
   background-color: gray;
   width: 4px;
   height: 10px;
