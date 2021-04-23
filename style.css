@@ -1,5 +1,7 @@
 @import "base.css";
-@import "music-box.css";
+@import "left-content.css";
+@import "right-content.css";
+@import "sidebox.css";
 @font-face {
   font-family: cyworld;
 

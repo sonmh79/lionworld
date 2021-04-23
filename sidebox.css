@@ -1,0 +1,131 @@
+.sidebox{
+    width: 220px;
+    height: 175px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+.music-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 5px;
+    margin: 0 auto;
+  }
+  .music-icons{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  
+  }
+  .music-icon {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .music-icon__pause {
+    z-index: 10;
+    background-color: gray;
+    width: 3px;
+    height: 8px;
+  }
+  .music-icon__pause:first-child{
+    margin-right: 2px;
+  }
+  .music-icon__play {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-left: 8px solid gray;
+    border-bottom: 5px solid transparent;
+  }
+  .music-icon__reset {
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+  }
+  .play, .pause, .reset{
+    margin-right: 5px;
+  }
+  .music-title {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    padding: 1px;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  .volume, .list{
+    font-size: 8px;
+  }
+  .volume-bar{
+    width: 50px;
+    height: 4px;
+    background-color: tomato;
+    margin: 0 4px;
+    position: relative;
+  }
+  .volume-controller{
+    width: 8px;
+    height: 6px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+  }
+.attraction{
+      width: 100%;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 3px 0;
+}
+.attraction-box{
+    display: flex;
+    align-items: center;
+
+}
+.attraction-box span {
+    display: block;
+    width: 50px;
+    padding: 5px;
+    font-size: 11px;
+}
+.attraction-bar {
+    width: 150px;
+    height: 5px;
+    background-color: gainsboro;
+    display: flex;
+}
+.attraction-bar__tomato{
+    width: 25%;
+    height: 100%;
+    background-color: tomato;
+}
+.attraction-bar__green{
+    width: 63%;
+    height: 100%;
+    background-color: green;
+}
+.attraction-bar__blue{
+    width: 16%;
+    height: 100%;
+    background-color: mediumturquoise;
+}
+.attraction-bar__purple{
+    width: 87%;
+    height: 100%;
+    background-color: purple;
+}
+.attraction-bar__yellow{
+    width: 3%;
+    height: 100%;
+    background-color: gold;
+}
