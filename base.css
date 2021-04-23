@@ -13,8 +13,7 @@
   border-radius: 15px;
 }
 .mainline{
-  position: relative;
-  left: 10px;
+  width: 280px;
   height: 650px;
   border-right: none;
   padding: 10px 0 10px 10px;
