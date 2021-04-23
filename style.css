@@ -29,12 +29,13 @@ body {
   to {
     opacity: 0;
     visibility: hidden;
+    z-index: 0;
   }
 }
 .splash-screen {
   width: 100vw;
   height: 100vh;
-  background-color: ivory;
+  background-color: rgba(255, 255, 255,0.8);
   z-index: 100;
   position: absolute;
   display: flex;
@@ -50,9 +51,9 @@ body {
 }
 .entry {
   border: none;
-  width: 100px;
+  width: auto;
   height: 100px;
-  background-color: ivory;
+  background-color: white;
   font-size: 50px;
 }
 .splash {

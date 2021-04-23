@@ -26,7 +26,6 @@
     align-items: center;
   }
   .music-icon__pause {
-    z-index: 10;
     background-color: gray;
     width: 3px;
     height: 8px;
@@ -48,6 +47,7 @@
   }
   .play, .pause, .reset{
     margin-right: 5px;
+    z-index: 101;
   }
   .music-title {
     background-color: whitesmoke;
