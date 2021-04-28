@@ -29,13 +29,13 @@ body {
   to {
     opacity: 0;
     visibility: hidden;
-    z-index: 0;
+    z-index: -100;
   }
 }
 .splash-screen {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(255, 255, 255,0.8);
+  background-color: rgba(255, 255, 255,0.99);
   z-index: 100;
   position: absolute;
   display: flex;
@@ -49,12 +49,19 @@ body {
   position: relative;
   left: 100px;
 }
+.welcome {
+  font-size: 30px;
+  color: orange;
+  margin: 0 auto;
+}
 .entry {
   border: none;
   width: auto;
   height: 100px;
-  background-color: white;
-  font-size: 50px;
+  background-color: rgba(255, 255, 255,0);
+  font-size: 70px;
+  position: absolute;
+  bottom: 10%;
 }
 .splash {
   animation: hideSplashScreen 0.3s linear forwards;
