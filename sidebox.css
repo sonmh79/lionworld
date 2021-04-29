@@ -1,5 +1,5 @@
 .sidebox{
-    width: 220px;
+    width: 200px;
     height: 175px;
     background-color: whitesmoke;
     margin: 0 auto;
@@ -10,7 +10,7 @@
     flex-direction: column;
     width: 100%;
     background-color: gainsboro;
-    padding: 5px;
+    padding: 5px 5px;
     margin: 0 auto;
   }
   .music-icons{
@@ -100,8 +100,8 @@
     font-size: 11px;
 }
 .attraction-bar {
-    width: 150px;
-    height: 5px;
+    width: 130px;
+    height: 4px;
     background-color: gainsboro;
     display: flex;
 }

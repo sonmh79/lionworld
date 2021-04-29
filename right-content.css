@@ -13,7 +13,7 @@
 }
 .top-area{
     width: 620px;
-    height: 25px;
+    height: 12px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -21,6 +21,7 @@
 .top-title{
     color: red;
     font-weight: 700;
+    font-size: 18px;
 }
 .top-address {
     font-size: 10px;
@@ -89,4 +90,35 @@
 }
 .r4{
     bottom: 90px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+}
+.content-title  {
+    display: block;
+    width: 85%;
+    color: deepskyblue;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: rgb(0,0,0,0.1) solid 1px;
+    margin-bottom: 10px;
+}
+.dog {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.service-info {
+    width: 85%;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+.photo-imgs > img{
+    width: 250px;
 }

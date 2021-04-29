@@ -13,13 +13,13 @@
 }
 .mainline{
   width: 280px;
-  height: 650px;
+  height: 665px;
   border-right: none;
   padding: 10px 0 10px 10px;
 }
 .sideline {
   width: 670px;
-  height: 650px;
+  height: 665px;
   border-left: none;
   padding: 10px 10px 10px 0px;
 }

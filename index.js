@@ -21,7 +21,7 @@ function init() {
         var splashScreen = document.querySelector(".splash-screen");
         splashScreen.classList.add("splash");
         audio.play();
-        audio.volume = 0.3;
+        audio.volume = 0.4;
     });
 }
 init();

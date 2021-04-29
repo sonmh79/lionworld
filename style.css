@@ -2,10 +2,11 @@
 @import "left-content.css";
 @import "right-content.css";
 @import "sidebox.css";
+@import "variables.css";
 @font-face {
   font-family: cyworld;
 
-  src: local(굴림);
+  src: local(굴림체);
 }
 * {
   box-sizing: border-box;
