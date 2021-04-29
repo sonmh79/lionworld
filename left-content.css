@@ -54,6 +54,7 @@
   .information a {
     text-decoration-line: none;
     margin-bottom: 5px;
+    z-index: 200;
   }
   .information  a:nth-child(2) {
     color: tomato;

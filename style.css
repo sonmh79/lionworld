@@ -35,7 +35,7 @@ body {
 .splash-screen {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(255, 255, 255,0.99);
+  background-color: rgba(255, 255, 255,0.9);
   z-index: 100;
   position: absolute;
   display: flex;
@@ -50,7 +50,7 @@ body {
   left: 100px;
 }
 .welcome {
-  font-size: 30px;
+  font-size: 50px;
   color: orange;
   margin: 0 auto;
 }

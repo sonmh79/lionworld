@@ -1,7 +1,7 @@
 .base {
   width: 1300px;
   height: 700px;
-  z-index: -2;
+  z-index: 0;
   display: flex;
 }
 .dotted-line {

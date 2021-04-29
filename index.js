@@ -7,18 +7,12 @@ var pause = document.querySelector(".pause");
 
 function init() {
     play.addEventListener("click",function(e){
-        console.log("play")
-        e.preventDefault();
         audio.play();
     });
     pause.addEventListener("click",function(e){
-        e.preventDefault();
-        console.log("pause")
         audio.pause();
     });
     reset.addEventListener("click",function(e){
-        e.preventDefault();
-        console.log("reset")
         audio.pause();
         audio.currentTime=0;
     });
